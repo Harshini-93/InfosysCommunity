@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="complaintandrequestservice" />
+        <module name="module4" />
+        <module name="module1" />
+        <module name="eureka" />
+        <module name="module3" />
+        <module name="module2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BillingAndPaymentService" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BillingAndPaymentService" options="-parameters" />
+      <module name="complaintandrequestservice" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="module1" options="-parameters" />
+      <module name="module2" options="-parameters" />
+      <module name="module3" options="-parameters" />
+      <module name="module4" options="-parameters" />
+    </option>
+  </component>
+</project>
